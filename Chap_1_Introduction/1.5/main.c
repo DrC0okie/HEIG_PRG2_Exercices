@@ -6,12 +6,15 @@
 unsigned short getBit(unsigned short pos, int n)
 {
    //Example:
-      //mask = 0001000     (n-1)
+      //pos = 3, n = 109
+      //mask = 0001000
       //     & 1101101
       //    -----------
       //       0001000 = 8
-      int mask = 0x1 << (pos-1);
+      //       8 >> 3 = 1
+      int mask = 0x1 << (pos);
       unsigned short result = n & mask;
+      result = result >> pos;
       return result;
 }
 
@@ -19,6 +22,6 @@ int main(void)
 {
    // 109 = 1101101
    // pos = 4
-   printf("%d",getBit(4,109));
+   printf("%d",getBit(3,109));
    return EXIT_SUCCESS;
 }
