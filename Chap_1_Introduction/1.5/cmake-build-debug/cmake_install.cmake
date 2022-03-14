@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/timot/Documents/HEIG/PRG2/Exercices/Chap_1_Introduction/1.5
+# Install script for directory: C:/Users/ROG/Documents/HEIG/PRG2/HEIG_PRG2_Exercices/Chap_1_Introduction/1.5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/timot/Documents/HEIG/PRG2/Exercices/Chap_1_Introduction/1.5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ROG/Documents/HEIG/PRG2/HEIG_PRG2_Exercices/Chap_1_Introduction/1.5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
