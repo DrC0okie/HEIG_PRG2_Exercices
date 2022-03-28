@@ -26,6 +26,6 @@ void decimalToBinary(int32_t n, int8_t binary[]) {
 int main(void) {
    int n = 0x8;
    int8_t binaryArray[sizeof(int32_t)*4];
-   decimalToBinary(8, binaryArray);
+   decimalToBinary(n, binaryArray);
    return EXIT_SUCCESS;
 }
